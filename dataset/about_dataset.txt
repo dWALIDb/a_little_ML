@@ -6,3 +6,7 @@ they contain the distances recorded using googles mediapipe api that has a hand 
 
 the model provides 21 landmarks with x,y,z coordinates, the CSV file contains the distances from each landmark
 to the wrist landmark,resulting into 20 values per hand.
+
+since i have provided the csv files directly, the file processing_single_images.py is kinda obsolete, 
+but you can make you own data set by making 3 files "thumbs_up" "thumbs_down" "non_wanted" and putting images 
+of corresponding gestures, and then it generates csv files with similar names.
